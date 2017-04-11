@@ -1,0 +1,62 @@
+
+
+    header li {
+      display: inline;
+      padding-left: 10px;
+      padding-right: 10px;
+      padding-bottom: 10px;
+      text-align: center;
+      }
+
+      table {
+        border: 2px solid black;
+      }
+      .flex {
+        display: flex;
+        justify-content: center;
+        width: 50%;
+        margin: auto;
+        flex-wrap: wrap;
+      }
+
+      .flexItem{
+        width: 50%;
+      }
+
+
+      html {
+        background-image:url('http://www.vanseodesign.com/blog/wp-content/uploads/2012/11/radial-gradient.png');
+        background-position: center;
+        background-size: 100% 100%;
+       background-repeat: no-repeat;
+      /*  background: red;
+        background: -webkit-linear-gradient(left top, red, yellow);
+        background: -o-linear-gradient(bottom right, red, yellow);
+        background: -moz-linear-gradient(bottom right, red, yellow);
+        background: linear-gradient(to bottom right, red, yellow); */
+      }
+      body {
+        text-align: center;
+                /*display: flex;
+        justify-content: center;*/
+      }
+      .centered {
+    margin: auto;
+    width: 50%;
+    padding: 10px;
+  }
+
+  h1{
+    font-family: Lato;
+  }
+
+  h2{
+    border: 10px black ridge;
+    width: 50%;
+    margin: auto;
+    font-family: Lato;
+  }
+
+  .textLeft {
+    text-align: left;
+  }
